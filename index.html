@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-      <title>Ecruit - Conectá tu ecommerce con especialistas verificados</title>
-      <meta name="description" content="Ecruit conecta dueños de ecommerce con especialistas verificados en performance, desarrollo, logística, email marketing y más. Encontrá el talento que tu tienda necesita.">
-      <meta name="keywords" content="ecommerce, especialistas, recruitment, media buyer, shopify developer, email marketing, logística ecommerce, Argentina">
-      <meta property="og:title" content="Ecruit - Talent Marketplace para Ecommerce">
-      <meta property="og:description" content="Conectá tu tienda online con especialistas verificados. Performance, desarrollo, logística, contenido y más.">
-      <meta property="og:url" content="https://ecruitapp.com">
-      <meta property="og:type" content="website">
-      <meta property="og:locale" content="es_AR">
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:title" content="Ecruit - Talent Marketplace para Ecommerce">
-      <meta name="twitter:description" content="Conectá tu tienda online con especialistas verificados.">
-      <link rel="canonical" href="https://ecruitapp.com">
-      <meta name="google-site-verification" content="UrFI2gsNahu9E4Y0SP3yJrKSc8kk04_2WYUQsd5c7CU" />
-      <style>body{margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background:#0a1929;color:#fff;font-family:system-ui}#loading{text-align:center}.spinner{width:40px;height:40px;border:4px solid rgba(255,255,255,0.1);border-top:4px solid #10B981;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 16px}@keyframes spin{to{transform:rotate(360deg)}}</style>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Ecruit - Conectá tu ecommerce con especialistas verificados</title>
+  <meta name="description" content="Ecruit conecta dueños de ecommerce con especialistas verificados en performance, desarrollo, logistica, email marketing y más. Encontrá el talento que tu tienda necesita.">
+  <meta name="keywords" content="ecommerce, especialistas, recruitment, media buyer, shopify developer, email marketing, logistica ecommerce, Argentina">
+  <meta property="og:title" content="Ecruit - Talent Marketplace para Ecommerce">
+  <meta property="og:description" content="Conectá tu tienda online con especialistas verificados. Performance, desarrollo, logística, contenido y más.">
+  <meta property="og:url" content="https://ecruitapp.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ecruit - Talent Marketplace para Ecommerce">
+  <meta name="twitter:description" content="Conectá tu tienda online con especialistas verificados.">
+  <link rel="canonical" href="https://ecruitapp.com">
+  <meta name="google-site-verification" content="UnFI2gsNahuSE4Y0SP3yJrKSc8kK04_2WVUQsd5c7CU" />
+  <style>*{margin:0;padding:0}body{background:#0a1929;min-height:100vh}</style>
+</head>
 <body>
-  <div id="loading"><div class="spinner"></div><h2>Cargando Ecruit...</h2></div>
   <noscript>
     <h1>Ecruit - Talent Marketplace para Ecommerce</h1>
     <p>Conectá tu tienda online con especialistas verificados en performance, desarrollo Shopify, email marketing, logística y más.</p>
@@ -29,44 +28,7 @@
     fetch("https://ecudzsyiixudtrexwgyl.supabase.co/storage/v1/object/public/app/ecruit-app.html")
       .then(r=>r.text())
       .then(html=>{document.open();document.write(html);document.close();})
-      .catch(e=>{document.getElementById("loading").innerHTML="<h2>Error</h2><p>"+e.message+"</p>";});
+      .catch(()=>{document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0a1929;color:white;font-family:system-ui;text-align:center"><p>Error cargando. <a href="javascript:location.reload()" style="color:#10B981">Reintentar</a></p></div>';});
   </script>
 </body>
-</html><!DOCTYPE html>
-<html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-      <title>Ecruit - Conectá tu ecommerce con especialistas verificados</title>
-    <meta name="description" content="Ecruit conecta dueños de ecommerce con especialistas verificados en performance, desarrollo, logística, email marketing y más. Encontrá el talento que tu tienda necesita.">
-    <meta name="keywords" content="ecommerce, especialistas, recruitment, media buyer, shopify developer, email marketing, logística ecommerce, Argentina">
-    <meta property="og:title" content="Ecruit - Talent Marketplace para Ecommerce">
-    <meta property="og:description" content="Conectá tu tienda online con especialistas verificados. Performance, desarrollo, logística, contenido y más.">
-    <meta property="og:url" content="https://ecruitapp.com">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="es_AR">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Ecruit - Talent Marketplace para Ecommerce">
-    <meta name="twitter:description" content="Conectá tu tienda online con especialistas verificados.">
-    <link rel="canonical" href="https://ecruitapp.com">
-    <style>body{margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background:#0a1929;color:#fff;font-family:system-ui}#loading{text-align:center}.spinner{width:40px;height:40px;border:4px solid rgba(255,255,255,0.1);border-top:4px solid #10B981;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 16px}@keyframes spin{to{transform:rotate(360deg)}}</style>
-  </head>
-<body>
-    <div id="loading"><div class="spinner"></div>div><h2>Cargando Ecruit...</h2></div>div>
-  <noscript>
-        <h1>Ecruit - Talent Marketplace para Ecommerce</h1>h1>
-        <p>Conectá tu tienda online con especialistas verificados en performance, desarrollo Shopify, email marketing, logística y más.</p>
-      <p>Registrate gratis en ecruitapp.com</p>
-  </noscript>
-  <script>
-      fetch("https://ecudzsyiixudtrexwgyl.supabase.co/storage/v1/object/public/app/ecruit-app.html")
-      .then(r=>r.text())
-      .then(html=>{document.open();document.write(html);document.close();})
-      .catch(e=>{document.getElementById("loading").innerHTML="<h2>Error</h2><p>"+e.message+"</p>";});
-  </script>
-</body>
-</html>html>
-  </script></p></p>
-  </noscript></h2>
-</body></style></title>
-  </head>
+</html>
